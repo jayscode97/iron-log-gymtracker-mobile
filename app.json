@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Iron Log",
-    "slug": "iron-log-mobile",
+    "slug": "ironlog",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,13 +21,26 @@
         "backgroundColor": "#0a0a0a"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.serhan97.ironlog"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d9912621-2efa-4b88-8050-9fa7f345f37f"
+      }
+    },
+    "owner": "serhan-97",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d9912621-2efa-4b88-8050-9fa7f345f37f"
+    }
   }
 }
